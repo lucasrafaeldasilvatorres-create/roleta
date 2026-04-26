@@ -1,0 +1,42 @@
+body {
+  background: radial-gradient(circle, #020617, #0f172a);
+  color: white;
+  text-align: center;
+  font-family: Arial;
+}
+
+textarea {
+  width: 80%;
+  height: 80px;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+button {
+  padding: 15px 25px;
+  font-size: 18px;
+  background: gold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: orange;
+}
+
+.roleta-container {
+  margin-top: 30px;
+}
+
+#roleta {
+  font-size: 80px;
+  transition: transform 3s ease-out;
+}

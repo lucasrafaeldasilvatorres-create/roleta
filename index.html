@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Roleta de Equipes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>🎡 Roleta de Nomes</h1>
+
+  <textarea id="nomes" placeholder="Ex: Lucas, João, Maria"></textarea>
+
+  <br>
+
+  <input type="number" id="times" placeholder="Número de equipes">
+
+  <br>
+
+  <button onclick="girar()">GIRAR</button>
+
+  <div class="roleta-container">
+    <div id="roleta">🎡</div>
+  </div>
+
+  <h2 id="resultado"></h2>
+
+  <audio id="som" src="https://www.soundjay.com/misc/sounds/bell-ringing-05.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
