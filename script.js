@@ -38,4 +38,6 @@ function girar() {
 
     document.getElementById("resultado").innerText = resultado;
   }, 3000);
+}if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("service-worker.js");
 }
